@@ -1,0 +1,91 @@
+Question 1: What is the output of print_r($person);? 
+Answer: 
+The output is
+
+Person Object
+(
+    [name] => Alice
+    [age] => 25
+)
+
+
+Question 2: What is the output of var_dump($person);?
+Answer:
+This will output
+
+object(Person)#1 (2) {
+  ["name"]=>
+  string(5) "Alice"
+  ["age"]=>
+  int(25)
+}
+ 
+
+Question 3: What is the output of var_dump($cashOnHand);? 
+Answer:
+
+
+Output of var_dump($cashOnHand) would be this will output:
+
+float(10.5)
+
+Question 4: What character is used to concatenate strings? 
+Answer:
+The dot (.) character is used to concatenate strings
+
+Question 5: What is the output of echo HOST;? 
+Answer:
+The output of echo HOST; is
+localhost
+
+
+Question 6: How will you define in PHP the variable Pl with value 3.14162 
+Answer:
+To define 'PI' with 3.1416 use this
+
+define('PI', 3.1416);
+
+Question 7: What is the output of echo $numbers [3] + $numbers[4];? 
+Answer:
+output of echo $numbers[3] + $numbers[4] is 9 Since $numbers[3] = 4 and $numbers[4] = 5, their sum is 4 + 5 = 9
+
+Question 8: What is the output of echo $colors[3];? 
+Answer:
+output of echo $colors[3]; is Undefined offset because the $colors array only has three elements
+
+
+Question 9: What are the keys in $person array? 
+Answer:
+"first_name", "last_name", "age" are The keys in the $person array
+
+Question 10: In PHP, how will you change the green into white in $colors. 
+array?
+Answer:
+To change "green" to "white" in the $colors array
+$colors[2] = 'white';
+
+
+Question 11: What is the output of echo $hex['red'];? 
+Answer:
+The output of echo $hex['red']; is #f00
+
+Question 12: What is the output of echo $matrix[1][2];? 
+Answer:
+output of echo $matrix[1][2]; is 6
+
+Question 13: What is the output of echo $people[0]['first_name'];? 
+Answer:
+The output is "Maeve"
+
+Question 14: What is the output of echo $people[2]['email'];?
+Answer:
+The output is "jane@gmail.com"
+
+Question 15: What is the output of var_dump($chunkedArray);?
+Answer:
+The output for var_dump($chunkedArray); would be array(3) {
+  [0]=> array(2) { [0]=> "apple", [1]=> "banana" }
+  [1]=> array(2) { [0]=> NULL, [1]=> "grape" }
+  [2]=> array(1) { [0]=> "mango" }
+}
+
