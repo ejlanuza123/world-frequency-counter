@@ -32,7 +32,7 @@ function formatString(string $text): string {
  * @return string Message indicating whether the number is even or odd.
  */
 function checkEvenOrOdd(int $number): string {
-    return ($number % 2 === 0) ? "The number $number is even." : "The number $number is odd.";
+    return ($number % 2 === 0) ? "The number $number is even.\n" : "The number $number is odd.\n";
 }
 
 // Sample Data
